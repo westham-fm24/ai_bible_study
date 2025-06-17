@@ -1,0 +1,5 @@
+models/
+data/processed/
+__pycache__/
+*.pt
+*.pth
