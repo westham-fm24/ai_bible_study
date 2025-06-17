@@ -17,9 +17,9 @@ tokenizer = PreTrainedTokenizerFast(
 config = {
     "vocab_size": tokenizer.vocab_size,
     "block_size": 128,
-    "n_layer": 4,
-    "n_head": 4,
-    "n_embd": 128,
+    "n_layer": 2,      # ✅ match training
+    "n_head": 2,       # ✅ match training
+    "n_embd": 64,      # ✅ match training
 }
 
 # Load model
